@@ -10,8 +10,18 @@ package ut5examensamuelruizgonzalez;
  * @author samue
  */
 public class Calculadora {
+     /**
+     * este es el primer operador de la operacion.
+     */
         private int operador1;
+        
+     /**
+     * este es el segundo operador de la operacion.
+     */
         private int operador2;
+     /**
+     * esta es la opcion a elegir de la operacion. 
+     */
         private String operacion;  
 
     /**
