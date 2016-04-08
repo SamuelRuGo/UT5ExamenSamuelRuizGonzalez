@@ -12,7 +12,7 @@ package ut5examensamuelruizgonzalez;
 public class Calculadora {
         private int operador1;
         private int operador2;
-        private String operacion;  
+        private String operador;  
 
     /**
      * @return the operador1
@@ -45,14 +45,14 @@ public class Calculadora {
     /**
      * @return the operacion
      */
-    public String getOperacion() {
-        return operacion;
+    public String getOperador() {
+        return operador;
     }
 
     /**
      * @param operacion the operacion to set
      */
-    public void setOperacion(String operacion) {
-        this.operacion = operacion;
+    public void setOperador(String operacion) {
+        this.operador = operacion;
     }
 }
